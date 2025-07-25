@@ -1,7 +1,123 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">  
+  <title>IGANets - Isogeometric analysis networks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Roboto Slab", serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #00a3db;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tile {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+        max-width: 150px;
+        width: 100%;
+
+    }
+    
+    .tile:hover {
+      transform: translateY(-4px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ecf0f1;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
   <header>
+    <h1>IGAnets</h1>
+    <p>Isogeometric analysis networks</p>
   </header>
-  <body>
-    <h1>Physics-informed isogeometric analysis network</h1>
-  </body>
+
+  <main>
+    <h2>Main repositories</h2>
+  </main>
+  
+  <main>
+    <a href="https://github.com/iganets/iganet" class="tile">
+      <img src="imgs/iganets_core_logo.png" alt="iganet::core" style="width:100%; border-radius: 6px;">
+    </a>
+
+    <a href="https://github.com/iganets/iganet-examples" class="tile">
+      <img src="imgs/iganets_examples_logo.png" alt="iganet::examples" style="width:100%; border-radius: 6px;">
+    </a>
+
+    <a href="https://github.com/iganets/iganet-perftests" class="tile">
+      <img src="imgs/iganets_perftests_logo.png" alt="iganet::perftests" style="width:100%; border-radius: 6px;">
+    </a>
+    
+    <a href="https://github.com/iganets/iganet-unittests" class="tile">
+      <img src="imgs/iganets_unittests_logo.png" alt="iganet::unittests" style="width:100%; border-radius: 6px;">
+    </a>
+
+
+  </main>
+
+  <main>
+    <h2>Language bindings</h2>
+  </main>
+
+  <main>
+    <a href="https://github.com/iganets/iganet-matlab" class="tile">
+      <img src="imgs/iganets_matlab_logo.png" alt="iganet::matlab" style="width:100%; border-radius: 6px;">
+    </a>    
+
+    <a href="https://github.com/iganets/iganet-python" class="tile">
+      <img src="imgs/iganets_python_logo.png" alt="iganet::python" style="width:100%; border-radius: 6px;">
+    </a>    
+  </main>
+  
+  <main>
+    <h2>Applications</h2>
+  </main>
+
+  <main>    
+    <a href="https://github.com/iganets/iganet-elasticity" class="tile">
+      <img src="imgs/iganets_elasticity_logo.png" alt="iganet::elasticity" style="width:100%; border-radius: 6px;">
+    </a>
+
+    <a href="https://github.com/iganets/iganet-stokes" class="tile">
+      <img src="imgs/iganets_stokes_logo.png" alt="Tile 1" style="width:100%; border-radius: 6px;">
+    </a>    
+  </main>
+  
+  <footer>
+    &copy; 2025 IGAnets Website. All rights reserved.
+  </footer>
+
+</body>
 </html>
